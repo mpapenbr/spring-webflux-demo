@@ -1,0 +1,7 @@
+spring.devtools.restart.enable: true
+spring:
+  actuator:
+    endpoints:
+        web:
+        exposure:
+            include: "*"
